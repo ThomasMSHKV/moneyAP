@@ -39,7 +39,7 @@ class CurrencyFragment : Fragment(), CoroutineScope {
 
                 curency?.let {
                     currencyText.text = getString(R.string.currenyFragmentTitleUsd)
-                    currencyImage.setImageResource(R.drawable.usa)
+                    currencyImage.setImageResource(R.drawable.america)
                     currencyRate.text = getString(R.string.currency).format(it.rub.toString())
                 }
 
@@ -59,7 +59,7 @@ class CurrencyFragment : Fragment(), CoroutineScope {
 
                     curency?.let {
                         currencyText.text = getString(R.string.currenyFragmentTitleEUR)
-                        currencyImage.setImageResource(R.drawable.eu_flag)
+                        currencyImage.setImageResource(R.drawable.evrope)
                         currencyRate.text =
                             getString(R.string.currency).format(df.format(euro).toString())
                     }
